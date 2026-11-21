@@ -237,7 +237,7 @@ fd.text((75, 42), "LAKE DUES", font=SANS_B(15), fill=RUST + (255,), anchor="ma")
 fd.text((75, 64), "PAID", font=SANS_B(17), fill=RUST + (255,), anchor="ma")
 fd.text((75, 90), "08 FEB", font=SANS_B(15), fill=RUST + (255,), anchor="ma")
 fs = fs.rotate(-12, expand=True, resample=Image.BICUBIC)
-img.paste(fs, (BX1 - 138, BY1 - 104), fs)
+img.paste(fs, (BX1 - 138, BY1 - 110), fs)
 
 text(RX0 + 26, 838, "This passport remains the property of the Republic of Kaldera.", SERIF_I(12), fill=GREY_TXT)
 text(RX0 + 26, 858, "If found, please return to any Kalderan consulate or lake-jetty office.", SERIF_I(12), fill=GREY_TXT)
